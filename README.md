@@ -25,6 +25,7 @@ Here are the sorting algorithms currently implemented in this repository:
 - **Insertion Sort**
 - **Bubble Sort**
 - **Merge Sort**
+- **Quick Sort**
 - *(More algorithms will be added over time)*
 
 Each algorithm is accompanied by detailed explanations of its logic, time complexity analysis, and comparisons with other algorithms.
