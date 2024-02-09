@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         Random rand = new Random();
 
-        int arraySize = 100000000;  // Size of the array to be generated
-        int arrayRange = 50;  // Range of values for the random numbers
+        int arraySize = 10;  // Size of the array to be generated
+        int arrayRange = 1000;  // Range of values for the random numbers
         int[] array = new int[arraySize];  // Array to hold the random numbers
 
         // Generating random numbers and populating the array
@@ -21,6 +21,7 @@ public class Main {
         Merge merge = new Merge();  
         Quick quick = new Quick(); 
         Heap heap = new Heap();
+        Counting countingSort = new Counting();
         
         System.out.println("================================================================");
 
@@ -31,14 +32,17 @@ public class Main {
 
         // Sorting the array in ascending order and printing the result
         //Please change the used object accordingly to desired sort method. 
-        int[] minSorted = heap.minOrder(array);
+        int[] minSorted = countingSort.minOrder(array);
         System.out.println("Ascending Order:\n" + Arrays.toString(minSorted) + "\n");
 
         // Sorting the array in descending order and printing the result
         //Please change the used object accordingly to desired sort method. 
-        int[] maxSorted = heap.maxOrder(array);
+        int[] maxSorted = countingSort.maxOrder(array);
         System.out.println("Descending Order:\n" + Arrays.toString(maxSorted));
 
         System.out.println("================================================================");
+
+        //Checks the suitability of the input array for sorting using Counting Sort algorithm.
+        System.out.println("Suitability: "+ countingSort.checkSuitability(array));
     }
 }

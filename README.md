@@ -1,5 +1,9 @@
 # Sorting Algorithms Implementation
 
+============================
+ **Commits still continue**
+============================
+
 Welcome to the Sorting Algorithms Implementation repository! In this project, we explore various sorting algorithms implemented in different programming languages. The goal is to provide a comprehensive collection of sorting algorithms for educational purposes and practical use.
 
 ## Table of Contents
@@ -27,6 +31,7 @@ Here are the sorting algorithms currently implemented in this repository:
 - **Merge Sort**
 - **Quick Sort**
 - **Heap Sort**
+- **Counting Sort**
 - *(More algorithms will be added over time)*
 
 Each algorithm is accompanied by detailed explanations of its logic, time complexity analysis, and comparisons with other algorithms.
