@@ -32,11 +32,13 @@ Here are the sorting algorithms currently implemented in this repository:
 - **Counting Sort**
 - *(More algorithms will be added over time)*
 
-Each algorithm is accompanied by detailed explanations of its logic, time complexity analysis, and comparisons with other algorithms.
+Each algorithm will be accompanied by detailed explanations of its logic, time complexity analysis, and comparisons with other algorithms.
+-Probably after I'm done with implementing the algorithms themselves.
+
 
 ## Languages
 
-The sorting algorithms are implemented in various programming languages to demonstrate language-specific features and syntax. Currently supported languages include:
+The sorting algorithms will be implemented in various programming languages to demonstrate language-specific features and syntax. Currently supported languages include:
 
 - **Java**
 - *(More languages will be added in the future)*
