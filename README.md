@@ -1,8 +1,6 @@
 # Sorting Algorithms Implementation
 
-============================
- **Commits still continue**
-============================
+## Commits Still Continue!
 
 Welcome to the Sorting Algorithms Implementation repository! In this project, we explore various sorting algorithms implemented in different programming languages. The goal is to provide a comprehensive collection of sorting algorithms for educational purposes and practical use.
 
