@@ -30,6 +30,7 @@ Here are the sorting algorithms currently implemented in this repository:
 - **Quick Sort**
 - **Heap Sort**
 - **Counting Sort**
+- **Radix Sort** (I'm thinking of improving this implementation later)
 - *(More algorithms will be added over time)*
 
 Each algorithm will be accompanied by detailed explanations of its logic, time complexity analysis, and comparisons with other algorithms.
